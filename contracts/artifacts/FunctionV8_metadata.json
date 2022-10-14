@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getData",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Version8.sol": "FunctionV8"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Version8.sol": {
+			"keccak256": "0x97130e9d83be2efa37a37593c24f203b2ec30c5c4d72ea5fb4c252764275ba73",
+			"urls": [
+				"bzz-raw://f27b1d1447ddd4c0e67310706d5b47fdf22ccdce0068978b5039109ce88ca432",
+				"dweb:/ipfs/QmVUh9HRyJahfRuQGNWPDsrJPEYJFd3FEQGK1fUwipKKNw"
+			]
+		}
+	},
+	"version": 1
+}

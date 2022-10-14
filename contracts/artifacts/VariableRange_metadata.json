@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getData",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getData2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/VariableRange.sol": "VariableRange"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/VariableRange.sol": {
+			"keccak256": "0xba625cfcc6564948768c214f9cecafb89d360e92a8cd3ede819a4428b50b35b6",
+			"urls": [
+				"bzz-raw://922e4f0cf14392d403a67daf71e31acdcdb5e0662aaa7ab07bb2122f192edbac",
+				"dweb:/ipfs/Qmda3jDRWZqGH8sKnRmZHTbCVz5sw2L8zYdLWpzNaMHq4F"
+			]
+		}
+	},
+	"version": 1
+}

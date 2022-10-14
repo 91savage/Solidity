@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.12+commit.f00d7308"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "a",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "changeData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/First.sol": "Solidity"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/First.sol": {
+			"keccak256": "0xf05f03cfbcfe01aca5005266f76985cacf0bff59251419908e031b259666637b",
+			"urls": [
+				"bzz-raw://b5b9e5d8b0b5d4359be74fd6701b169d9f78d15fd7e51eea80c1c50d81fc3bbe",
+				"dweb:/ipfs/QmY7SMiNe3QH1SjsJhn18TRbRXFJeuShe1UHThaA6vy2PT"
+			]
+		}
+	},
+	"version": 1
+}

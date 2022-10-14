@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.12+commit.f00d7308"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "data",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/FunctionVisibility.sol": "FunctionVisibility"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/FunctionVisibility.sol": {
+			"keccak256": "0xad07050db1a26adb3c632851760bc4cef481261081f16900ca1e83c43baff005",
+			"urls": [
+				"bzz-raw://f060e73e3f27f48d14e4be490af3f750d93ee8675235205db553f41c37e6d2ee",
+				"dweb:/ipfs/QmVDtw8KCMAXrU5rZDK8kSxmDCtEAzzcLC8NoRXzuAwfuN"
+			]
+		}
+	},
+	"version": 1
+}

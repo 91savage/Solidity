@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.4.12+commit.194ff033"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "getData",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"payable": false,
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "setData",
+				"outputs": [],
+				"payable": false,
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Version4.sol": "Function4"
+		},
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Version4.sol": {
+			"keccak256": "0xa7f75b2fa9f26d3dbc2f21e129f8c9b9e67ee68a43ce13120263d4a5a2a0aac6",
+			"urls": [
+				"bzzr://2aeeebdfed407d6c700e700a3bb360f2908e4fe01248c7f4f0423f6ee5796f09"
+			]
+		}
+	},
+	"version": 1
+}
