@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.4.12+commit.194ff033"
+		"version": "0.4.26+commit.4563c3fc"
 	},
 	"language": "Solidity",
 	"output": {
@@ -16,6 +16,7 @@
 					}
 				],
 				"payable": false,
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -24,6 +25,7 @@
 				"name": "setData",
 				"outputs": [],
 				"payable": false,
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -38,6 +40,7 @@
 		"compilationTarget": {
 			"contracts/Version4.sol": "Function4"
 		},
+		"evmVersion": "byzantium",
 		"libraries": {},
 		"optimizer": {
 			"enabled": false,
@@ -47,9 +50,9 @@
 	},
 	"sources": {
 		"contracts/Version4.sol": {
-			"keccak256": "0xa7f75b2fa9f26d3dbc2f21e129f8c9b9e67ee68a43ce13120263d4a5a2a0aac6",
+			"keccak256": "0x99ad3a95884e349443f6a820489c40d5f32b953ee5b297fa9f9ce3ea669750b6",
 			"urls": [
-				"bzzr://2aeeebdfed407d6c700e700a3bb360f2908e4fe01248c7f4f0423f6ee5796f09"
+				"bzzr://1683346bce2d78ce2a5b39c9416b745a073c11695997671dc5ce4d1ff2222720"
 			]
 		}
 	},

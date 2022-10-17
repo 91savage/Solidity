@@ -19,7 +19,13 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "_data",
+						"type": "uint8"
+					}
+				],
 				"name": "setData",
 				"outputs": [],
 				"stateMutability": "nonpayable",
@@ -39,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Version8.sol": "Function"
+			"contracts/Function.sol": "Function"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -53,11 +59,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Version8.sol": {
-			"keccak256": "0x70a5bd33bae0e0a7473f27af5d69c154a581f657bc479a7250baca7fd682b5ec",
+		"contracts/Function.sol": {
+			"keccak256": "0xf07e3241a3d977a08ee0f043f23d36448c14d10e4173598fe0f90b5560923f7e",
 			"urls": [
-				"bzz-raw://57a491e08bcf4c81a366979190c9c190c3231f08b6799bb630c0c4c34e40ce90",
-				"dweb:/ipfs/QmR8xkgbecPyTkKuYwijUgJHUsUfdkx53kbHFv6vA76i1U"
+				"bzz-raw://d68d26a4453946720611c23f1e4f1c3749895c322055f321b18554f711e1545f",
+				"dweb:/ipfs/QmQCBHazajMqfUPrXMu8o6cpPXeUGDQXnAS31pD5ztWKG7"
 			]
 		}
 	},
