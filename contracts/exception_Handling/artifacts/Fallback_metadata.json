@@ -7,12 +7,21 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getData",
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "data",
 				"outputs": [
 					{
-						"internalType": "uint8",
+						"internalType": "uint256",
 						"name": "",
-						"type": "uint8"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -20,10 +29,14 @@
 			},
 			{
 				"inputs": [],
-				"name": "setData",
+				"name": "order",
 				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "payable",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -39,7 +52,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Version8.sol": "FunctionV8"
+			"contracts/exception_Handling/Fallback.sol": "Fallback"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -53,11 +66,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Version8.sol": {
-			"keccak256": "0x97130e9d83be2efa37a37593c24f203b2ec30c5c4d72ea5fb4c252764275ba73",
+		"contracts/exception_Handling/Fallback.sol": {
+			"keccak256": "0x9b4ad892c542357b5118fbc21b920fdb64279195e8689a529e96c282c61effd2",
 			"urls": [
-				"bzz-raw://f27b1d1447ddd4c0e67310706d5b47fdf22ccdce0068978b5039109ce88ca432",
-				"dweb:/ipfs/QmVUh9HRyJahfRuQGNWPDsrJPEYJFd3FEQGK1fUwipKKNw"
+				"bzz-raw://f7f33dc04b464ce264cbf5e867f00568571d330aee3fc327c3ae76557bcc5f46",
+				"dweb:/ipfs/QmVfyxH7jK3c44CvKTmMMVYWTtAe45WA41SVejGBeN828t"
 			]
 		}
 	},
