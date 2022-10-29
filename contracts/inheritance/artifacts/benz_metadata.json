@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/inheritance/inherit.sol": "benz"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/inheritance/inherit.sol": {
+			"keccak256": "0xeb4ca286783e00e646fe7b8c86dcb7868b0051e5e8367cfc2d3933eba13635bd",
+			"urls": [
+				"bzz-raw://ea1e32fabacfcf860cd5e379c989b47d7437ea1467151713be1462ad77c9b6c7",
+				"dweb:/ipfs/QmaUSM2muUZb6ef3G4ebYAVGMSKaF63bpWu6QZDQkWvQ45"
+			]
+		}
+	},
+	"version": 1
+}
