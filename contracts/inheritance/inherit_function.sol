@@ -5,23 +5,22 @@ contract Car{
     string private type_; // 타입
     uint8 private door; // 문 갯수
 
+    constructor(string memory _type, uint8 _door){
+        type_ = _type;
+        door = _door;
+    }
     function getDoor() public view returns(uint8) {
         return door;
     }
 }
 
-contract Benz is Car{
+contract Benz is Car("suv",4){
     string private model; // 모델
     address private owner; // 소유자
-
-    function getModel() public view returns(string memory){
-        return model;
+    constructor(string memory _model){
+        model = _model;
+        owner = msg.sender;
     }
-}
-
-contract Audi is Car{
-    string private model; // 모델
-    address private owner; // 소유자
 
     function getModel() public view returns(string memory){
         return model;

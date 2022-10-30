@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/inheritance/inherit.sol": "benz"
+			"contracts/inheritance/inherit.sol": "a"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -60,10 +60,10 @@
 	},
 	"sources": {
 		"contracts/inheritance/inherit.sol": {
-			"keccak256": "0x2f1b79a7e71604701ca645d4f4a3772d005bde6559eb936ea971c07b1a7d5131",
+			"keccak256": "0x5f363e97fc152ed4e34215518a0f874057f3e334ea0519eaeb561d9e5a09b4e4",
 			"urls": [
-				"bzz-raw://9ef84b1eda31f7bee175a7665705bd44bce914941b700beb753f97769068552c",
-				"dweb:/ipfs/QmZyipmHRy9BcVWGWtf2KrRCGXZbZdWJsYRM8ho6DExpRd"
+				"bzz-raw://d925c053dcebec63edd1f4e080b4b7ba1474ef588ffea54fe0edfef17160e63b",
+				"dweb:/ipfs/QmTQcf2BPjtkA5QajFKQKKuD9q8f4mPsYWXRYjcVZX8wkm"
 			]
 		}
 	},

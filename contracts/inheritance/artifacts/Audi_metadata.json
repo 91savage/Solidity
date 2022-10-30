@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/inheritance/inherit.sol": "benz"
+			"contracts/inheritance/inherit_function.sol": "Audi"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -59,11 +59,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/inheritance/inherit.sol": {
-			"keccak256": "0x2f1b79a7e71604701ca645d4f4a3772d005bde6559eb936ea971c07b1a7d5131",
+		"contracts/inheritance/inherit_function.sol": {
+			"keccak256": "0xf4b07826391a68b8222c26ae3dbc9b6ba53eb766b324aa6588d13a5cfa907f82",
 			"urls": [
-				"bzz-raw://9ef84b1eda31f7bee175a7665705bd44bce914941b700beb753f97769068552c",
-				"dweb:/ipfs/QmZyipmHRy9BcVWGWtf2KrRCGXZbZdWJsYRM8ho6DExpRd"
+				"bzz-raw://41a6a025f2e9f95285a4476e73f9950a481345ea33a0fe2b405dd93cbe563194",
+				"dweb:/ipfs/Qmf5G2qgBmujCfXPp2AQh5vNQo8Jv2kgKHF2ZbcAB2mvdb"
 			]
 		}
 	},

@@ -6,26 +6,24 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "getDoor",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "uint8",
-						"name": "",
-						"type": "uint8"
+						"internalType": "address",
+						"name": "_seller",
+						"type": "address"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
+				"stateMutability": "nonpayable",
+				"type": "constructor"
 			},
 			{
 				"inputs": [],
-				"name": "getModel",
+				"name": "getSeller",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "address",
 						"name": "",
-						"type": "string"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -45,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/inheritance/inherit.sol": "benz"
+			"contracts/inheritance/MultiInheritance.sol": "Seller"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -59,11 +57,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/inheritance/inherit.sol": {
-			"keccak256": "0x2f1b79a7e71604701ca645d4f4a3772d005bde6559eb936ea971c07b1a7d5131",
+		"contracts/inheritance/MultiInheritance.sol": {
+			"keccak256": "0x1db625821f8f779ee80e6a608b180d077f802b4d2d2452e1cf94b8cdca975273",
 			"urls": [
-				"bzz-raw://9ef84b1eda31f7bee175a7665705bd44bce914941b700beb753f97769068552c",
-				"dweb:/ipfs/QmZyipmHRy9BcVWGWtf2KrRCGXZbZdWJsYRM8ho6DExpRd"
+				"bzz-raw://9346a46438c0e90fac71406abaa9d5e54056db388dba4e82fbf87b3f94f7cda9",
+				"dweb:/ipfs/QmUxEJfh7UEtktY8Kuh3tkPRcg1ttXVm58q3h72f8vXuek"
 			]
 		}
 	},
