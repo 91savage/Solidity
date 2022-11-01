@@ -28,7 +28,7 @@ contract DelegateCaller{
         }
         return (size > 0); // CA, EOA 인지
     }
-
+    //다시 보기
     function callFunc(address payable _address, uint _a, uint _b) public returns(bytes memory){
         bytes memory callFuncBytes = abi.encodeWithSignature("plusData(uint256,uint256)",_a,_b);
         if(isContract(_address)){
